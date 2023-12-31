@@ -1,0 +1,34 @@
+[
+  {
+    "model":"reservation_system.provider",
+    "pk":1,
+    "fields":{
+      "first_name": "Jake",
+      "last_name":"Black"
+    }
+  },
+  {
+    "model":"reservation_system.provider",
+    "pk":2,
+    "fields":{
+      "first_name": "Jane",
+      "last_name":"Doe"
+    }
+  },
+  {
+    "model":"reservation_system.client",
+    "pk":1,
+    "fields":{
+      "first_name": "Harry",
+      "last_name":"Smith"
+    }
+  },
+  {
+    "model":"reservation_system.client",
+    "pk":2,
+    "fields":{
+      "first_name": "John",
+      "last_name":"Bird"
+    }
+  }
+]
