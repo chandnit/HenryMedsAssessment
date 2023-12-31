@@ -63,7 +63,7 @@ Returns a newly created client with a client_id. You can hit this endpoint befor
 
 ### POST provider/availability 
 
-This endpoint allows a provider to post their availability. The input requires a provider_id, start_time, and end_time; the time range is in ISO format in the request body. Again, here I assume a valid provider_id, start_time, and end_time are supplied. I also assume the availability can only occur in 15 minute multiples (e.g. HH:15, HH:30) and the start_time and end_time provided are also a 15 minute multiple. If I had more time and I wanted to get this production ready, I would add in some input validations as well as allow the provider to submit their availability in a more user-friendly format.
+This endpoint allows a provider to post their availability. The input requires a provider_id, start_time, and end_time; the time range is in ISO format in the request body. Again, here I assume a valid provider_id, start_time, and end_time are supplied. I also assume the availability can only occur in 15 minute multiples (e.g. HH:15, HH:30) and the start_time and end_time provided are also a 15 minute multiple. If I had more time and I wanted to get this production ready, I would add in some input validations as well as allow the provider to submit their availability in multiple formats.
 
 Input:
 
